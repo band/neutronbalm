@@ -1,11 +1,12 @@
 wiki_title: some neutron balm
 author: mr bill
-edit_url: ''
+edit_url: https://github.com/band/neutronbalm/edit
 edit_branch: main
-repo: ''
+repo: <a href="https://github.com/band/neutronbalm">neutron-balm</a>
 license: <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
   4.0 International License</a>
 recent_changes_count: 5
 sidebar: Sidebar.md
+theme: lessCSS
 no_edit_url_pages: null
 excluded_directories: null
