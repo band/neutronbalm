@@ -6,5 +6,7 @@ If everyone were a storyteller, the infrastructure of the village would collapse
 
 “All of us are recognizable.” [[azadiExcerpt]]  
 
-the Global Problematique [[sysDynamicsLessons]]  
+the Global Problematique [[systemsDynamicsLessons]]  
+
+  
 
