@@ -1,4 +1,4 @@
-# azadi excerpt
+# azadi - hope lies in texts
 
 "All of us are recognizable."
 
