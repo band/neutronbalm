@@ -3,11 +3,24 @@
 .header {
   margin-top: 5rem;
   text-align: center; }
+.header h1 {
+    font-size: 4.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+    color: #333;
+}
 .value-prop {
   margin-top: 1rem; }
 .value-props {
   margin-top: 3rem;
   margin-bottom: 3rem; }
+.value-props h1 {
+    font-size: 3.0rem;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #555;
+    margin-bottom: 2rem;
+}
 .value-img {
   display: block;
   text-align: center;
@@ -21,10 +34,16 @@
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
-    margin-top: 13rem; }
+      margin-top: 7rem; }
+  .header h1 {
+      font-size: 5.0rem;
+  }
   .value-props {
     margin-top: 5rem;
     margin-bottom: 3rem; }
+  .value-props h1 {
+      font-size: 3.5rem;
+  }
   .value-img {
     margin-bottom: 1rem; }
 }
@@ -41,8 +60,8 @@
     height: 6.5rem;
     background: #fff;
     z-index: 99;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee; }
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee; }
   .navbar-spacer {
     display: none; }
   .navbar > .container {
