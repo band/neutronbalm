@@ -1,3 +1,6 @@
+---
+bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lvimzse4qa2y
+---
 # Bruno Schulz - The Book
 
 2009-06-22
