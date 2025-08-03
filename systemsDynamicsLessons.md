@@ -1,6 +1,3 @@
----
-bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lvj2fpvhbl2j
----
 ## Systems Lessons of the Global Problematique: Valuing Connection
 
 Today, greenhouse gas emissions are rising again while questions about
