@@ -40,7 +40,6 @@
   <data id="file-path-data" value="{{file_path}}"></data>
   <script src="{{websiteroot}}/markpub-static/js/script.js"></script>
   {% if bluesky_comments_post %}
-  console.log(`bluesky_comments_post: ${bluesky_comments_post}`)
   <div id="mastodon-comments"></div>
   <script type="importmap">
     {
@@ -56,7 +55,6 @@
     import { MastodonComments } from 'https://mastodon-comments-dev.netlify.app/mastodon-comments.es.js'
 
     const uri = '{{bluesky_comments_post}}'
-    console.log(`socials uri: ${uri}`)
     const container = document.getElementById('mastodon-comments')
     const root = createRoot(container)
     root.render(
