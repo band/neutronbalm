@@ -1,5 +1,5 @@
 ---
-bluesky_comments_post: 'https://hachyderm.io/users/band/statuses/114977262183830227'
+mastodon_comments_post: 'https://hachyderm.io/users/band/statuses/114977262183830227'
 ---
 # Bruno Schulz - The Book
 
