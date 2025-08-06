@@ -1,7 +1,8 @@
 # Files in Root
 
-- [[systemsDynamicsLessons]] *(8/3/2025, 8:21:03 AM)*
-- [[Bruno Schulz - The Book]] *(8/3/2025, 8:15:30 AM)*
+- [[2025-08-03 Paul Musgrave - the China challenge]] *(8/3/2025, 12:22:31 PM)*
+- [[systemsDynamicsLessons]] *(8/3/2025, 11:13:35 AM)*
+- [[Bruno Schulz - The Book]] *(8/3/2025, 11:13:23 AM)*
 - [[A.R. Moxon - What is a socialist]] *(7/25/2025, 2:00:34 PM)*
 - [[Connections - literary and otherwise]] *(7/20/2025, 8:11:37 AM)*
 - [[AI interactions - keeping it real]] *(7/19/2025, 7:47:41 AM)*
@@ -11,4 +12,4 @@
 - [[Doris Lessing - on education]] *(4/28/2024, 9:52:14 AM)*
 - [[Massive Wiki Manifesto]] *(3/26/2022, 1:06:01 PM)*
 
-*This list contains 10 files and was last updated on 8/3/2025, 8:21:07 AM*
+*This list contains 11 files and was last updated on 8/6/2025, 7:37:57 AM*
