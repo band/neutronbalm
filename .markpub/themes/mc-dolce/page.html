@@ -52,10 +52,9 @@
   <script type="module">
     import { createElement } from 'react'
     import { createRoot } from 'react-dom/client'
-    import { MastodonComments } from 'https://mastodon-comments-dev.netlify.app/mastodon-comments.es.js'
+    import { MastodonComments } from 'http://127.0.0.1:8080/mastodon-comments.es.js'
 
     const uri = '{{bluesky_comments_post}}'
-    console.log(`uri: ${uri}`)
     const container = document.getElementById('mastodon-comments')
     const root = createRoot(container)
     root.render(
