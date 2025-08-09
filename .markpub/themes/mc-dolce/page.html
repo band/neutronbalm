@@ -56,6 +56,8 @@
 
     const uri = '{{bluesky_comments_post}}'
     const container = document.getElementById('mastodon-comments')
+    console.log(container)
+    console.log(container.children)
     const root = createRoot(container)
     root.render(
 	createElement(MastodonComments, {
