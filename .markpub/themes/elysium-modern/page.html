@@ -1,15 +1,19 @@
 {% set page_title = title ~ ' - ' ~ wiki_title if title != 'README' else wiki_title %}{% include '_header.html' %}
 <body class="font-roboto text-gray-800 bg-gray-50 leading-relaxed">
   <!-- Header -->
-  <header id="header" class="bg-gradient-to-r from-blue-500 to-blue-600 border-b-2 border-blue-700 px-4 py-3 sm:px-6">
-    <div class="flex items-center">
-      <button id="hamburger-btn" class="hidden text-white text-2xl mr-3 hover:text-blue-100 transition-colors" aria-label="Toggle menu">
-        &#9776;
-      </button>
-      <a id="header-link" href="{{websiteroot}}/index.html" 
-         class="text-white text-2xl font-light font-roboto uppercase tracking-wide hover:text-blue-100 transition-colors no-underline">
-        {{wiki_title}}
+  <header>
+    <div class="container nav">
+      <a class="brand" href="/">
+        <span class="logo" aria-hidden="true"></span>
+        <span>{{wiki_title}}</span>
       </a>
+      <div class="nav-spacer"></div>
+      <nav class="nav-items" aria-label="Primary">
+        <!-- Add navigation items -->
+      </nav>
+      <button class="btn-theme" onclick="toggleTheme()" aria-label="Toggle color theme">
+        Theme: <span id="theme-label">Auto</span>
+      </button>
     </div>
   </header>
 
