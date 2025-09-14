@@ -44,7 +44,7 @@ A modern, Tailwind-inspired theme for MarkPub, based on the Dolce theme.
 ## Recent Changes
 
 - **Renamed from Encore to Elysium** (September 2025)
-- **Fixed directory naming**: Consistent use of `markpub-static` (with hyphen) throughout
+- **Fixed directory naming**: Consistent use of `markpub_static` (with underscore) throughout
 - **Enhanced markdown styling**: Added comprehensive CSS for all markdown elements including headers, code blocks, tables, lists, and more
 - **Consolidated CSS architecture**: Moved all theme styles to `style.css`, leaving `custom.css` as a clean placeholder for user customizations
 - **Improved typography**: Better visual hierarchy with proper font sizes, weights, and spacing
