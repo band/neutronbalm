@@ -1,6 +1,3 @@
----
-bluesky_comments_post: https://hachyderm.io/@band/114977262183830227
----
 # Bruno Schulz - The Book
 
 2009-06-22
