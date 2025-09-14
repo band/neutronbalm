@@ -20,5 +20,30 @@
     {% if lunr_posts_sitepath != '' %}
     <script src="{{lunr_posts_sitepath}}"></script>
     <script> function randomPageLink() { return "{{websiteroot}}"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
+    <style>
+      /* Modern header styles */
+      .header-modern {
+        margin-bottom: 2.5rem;
+        padding: 2rem 0;
+        border-bottom: 1px solid #e2e8f0;
+      }
+      .header-modern h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+      }
+      .accent {
+        color: #6366f1;
+        font-weight: 500;
+      }
+      
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .header-modern h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
     {% endif %}
   </head>
