@@ -1,26 +1,9 @@
 {% set page_title = title ~ ' - ' ~ wiki_title if title != 'README' else wiki_title %}{% include '_header.html' %}
 <body class="font-roboto text-gray-800 bg-gray-50 leading-relaxed">
   <!-- Header -->
-  <header>
-    <div class="container nav">
-      <a class="brand" href="{{websiteroot}}/index.html">
-	<span>{{wiki_title}}</span>
-      </a>
-      <div class="nav-spacer"></div>
-      <nav class="nav-items" aria-label="Primary">
-        <a href="/">HOME</a>
-        <span aria-hidden="true">·</span>
-        <a href="/all-pages.html">All Pages</a>
-        <span aria-hidden="true">·</span>
-        <a href="/recent-pages.html">Recent Pages</a>
-        <span aria-hidden="true">·</span>
-        <a href="/search.html">Search</a>
-      </nav>
-    </div>
-  </header>
-
+  {% include '_body-header.html' %}
   <!-- Main Container -->
-    <!-- Main Content -->
+   <!-- Main Content -->
     <div class="container hero">
       {% if edit_url %}
       <div class="flex justify-end mb-4 pt-4">
@@ -49,7 +32,6 @@
       </div>
       {% endif %}
     </main>
-  </div>
   <script src="{{websiteroot}}/markpub_static/js/script.js"></script>
   {% if bluesky_comments_post %}
   <div id="bluesky-comments"></div>
