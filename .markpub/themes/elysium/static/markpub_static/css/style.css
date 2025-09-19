@@ -227,8 +227,8 @@ iframe {
   margin: 0.5em 0 0.2em;
   color: black;
   background: #d6eaf8;
-  background: #3298dc;
-  border-bottom: 2px solid #4058c0;
+  background: #f3f4f6;
+  border-bottom: 2px solid #e5e7eb;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -247,7 +247,7 @@ iframe {
   font-size: 2rem;
   cursor: pointer;
   margin-right: 0.5em;
-  color: white !important;
+  color: #000000 !important;
   background: transparent;
   border: none;
 }

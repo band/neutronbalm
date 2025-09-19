@@ -1,23 +1,25 @@
 {% set page_title = title ~ ' - ' ~ wiki_title if title != 'README' else wiki_title %}{% include '_header.html' %}
 <body class="font-roboto text-gray-800 bg-gray-50 leading-relaxed">
-  <!-- Header
+  <!-- Header -->
   <header id="header" class="bg-gradient-to-r from-blue-500 to-blue-600 border-b-2 border-blue-700 px-4 py-3 sm:px-6">
     <div class="flex items-center">
-      <button id="hamburger-btn" class="hidden text-white text-2xl mr-3 hover:text-blue-100 transition-colors" aria-label="Toggle menu">
+      <button id="hamburger-btn" class="hidden text-2xl mr-3 hover:text-blue-100 transition-colors" aria-label="Toggle menu">
         &#9776;
       </button>
-      <a id="header-link" href="{{websiteroot}}/index.html" 
-         class="text-white text-2xl font-light font-roboto uppercase tracking-wide hover:text-blue-100 transition-colors no-underline">
-        {{wiki_title}}
-      </a>
+      <div class="container nav">
+        <a class="brand" href="{{websiteroot}}/index.html">
+          <span>{{wiki_title}}</span>
+        </a>
+      </div>
     </div>
   </header>
-  -->
-  {% include '_body-header.html' %}
+
   <!-- Main Container -->
   <div id="flex-container" class="flex max-w-full px-4 sm:px-6 lg:px-8">
     <!-- Sidebar -->
-    <aside id="side-column" class="bg-white min-w-48 max-h-[80vh] p-5 mr-4 overflow-y-auto border-r border-gray-300 shadow-sm">
+    <aside id="side-column" class="bg-white min-w-48 max-h-[80vh] p-5
+				   mr-4 overflow-y-auto border-r
+				   border-gray-300 shadow-sm rounded-md">
       <div class="mb-4">
         <button id="hide-btn" class="px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors mr-2">
           Hide
