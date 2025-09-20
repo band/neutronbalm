@@ -10,41 +10,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Tailwind CSS replaced with custom utility classes in style.css -->
     <link rel="stylesheet" href="/neutron/markpub_static/css/style.css">
-    <link rel="stylesheet" href="/neutron/markpub_static/css/custom.css">
     <link rel="stylesheet" href="/neutron/markpub_static/css/elysium.css">
+    <link rel="stylesheet" href="/neutron/markpub_static/css/custom.css">
     <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.12.0/dist/bluesky-comments.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
-    <script src="/neutron/lunr-index-1758397208.0474153.js"></script>
+    <script src="/neutron/lunr-index-1758402688.7573707.js"></script>
     <script>var index = lunr.Index.load(lunr_index)</script>
     
     
-    <script src="/neutron/lunr-posts-1758397208.0474153.js"></script>
+    <script src="/neutron/lunr-posts-1758402688.7573707.js"></script>
     <script> function randomPageLink() { return "/neutron"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
-  
+    
   </head>
 <body class="font-roboto text-gray-800 bg-gray-50 leading-relaxed">
   <!-- Header -->
-    <header>
-    <div class="container nav">
-      <a class="brand" href="/neutron/index.html">
-	<span>some neutron balm</span>
-      </a>
-      <div class="nav-spacer"></div>
-      <nav class="nav-items" aria-label="Primary">
-        <a href="/">HOME</a>
-        <span aria-hidden="true" class="px-3">·</span>
-        <a href="/all-pages.html">All Pages</a>
-        <span aria-hidden="true" class="px-3">·</span>
-        <a href="/recent-pages.html">Recent Pages</a>
-        <span aria-hidden="true" class="px-3">·</span>
-        <a href="/search.html">Search</a>
-      </nav>
-    </div>
-  </header>
+    <div id="header">
+    <span id="hamburger-btn"
+    class="hidden">&#9776;</span><a class="button is-light" id="header-link" href="/neutron/index.html" style="color: black;">some neutron balm</a>
+  </div>
+
   <!-- Main Container -->
-   <!-- Main Content -->
-    <div class="container hero">
+  <div id="flex-container" class="flex max-w-full px-4 sm:px-6 lg:px-8">
+    <!-- Sidebar -->
+    <aside id="side-column" class="bg-white min-w-48 max-h-[80vh] p-5
+				   mr-4 overflow-y-auto border-r
+				   border-gray-300 shadow-sm rounded-md">
+      <div class="mb-4">
+        <button id="hide-btn" class="px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors mr-2">
+          Hide
+        </button>
+        <button id="move-btn" class="hidden px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors">
+          Move to Sidebar
+        </button>
+      </div>
+      <div class="sidebar-content">
+        <h3>Site Navigation</h3>
+<div class="navlinks">
+<ul>
+<li><a class="wikilink" href="/neutron/README.html">HOME</a></li>
+<li><a href="/neutron/search.html">SEARCH</a></li>
+<li><a href="/neutron/all-pages.html">ALL PAGES</a></li>
+<li><a href="/neutron/recent-pages.html">RECENT CHANGES</a></li>
+</ul>
+</div>
+<div class="navlinks">
+  <button onclick="location.href=`${randomPageLink()}`">
+    RANDOM PAGE
+  </button>
+</div>
+
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main id="main-column" class="max-w-3xl bg-white px-5 py-0 pb-5 flex-grow ml-8 shadow-sm rounded-lg">
       
       <div class="flex justify-end mb-4 pt-4">
         <a target="_blank" href="https://github.com/band/neutronbalm/edit/main/systemsDynamicsLessons.md" 
@@ -53,9 +73,7 @@
         </a>
       </div>
       
-    </div>
-    
-    <main class="container">
+      
       <div class="prose prose-gray max-w-none">
         <h2>Systems Lessons of the Global Problematique: Valuing Connection</h2>
 <p>Today, greenhouse gas emissions are rising again while questions about
@@ -83,12 +101,11 @@ Ahearn, PubPub Community Manager</p>
       </div>
       
     </main>
+  </div>
   <script src="/neutron/markpub_static/js/script.js"></script>
   
-  <footer>
-    <div class="foot">
-      <footer class="bg-gray-100 py-8 mt-12">
-  <div class="text-center text-gray-600 space-y-2">
+  <footer class="bg-gray-100 py-8 mt-12">
+  <div class="text-center text-gray-600 space-y-1">
     
     <div><strong class="font-semibold text-gray-800">some neutron balm</strong> by mr bill.</div>
     
@@ -98,10 +115,8 @@ Ahearn, PubPub Community Manager</p>
     
     <div>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
     
-    <div class="text-sm italic">Site last updated on Saturday, September 20, 2025 at 19:40 UTC.</div>
+    <div class="text-sm italic">Site last updated on Saturday, September 20, 2025 at 21:11 UTC.</div>
   </div>
 </footer>
-    </div>
-  </footer>
-  </body>
+</body>
 </html>
